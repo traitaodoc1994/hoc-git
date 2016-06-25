@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo CSS and HTML</title>
+	<style>
+		body{
+			background-color: #EEE;
+			font-size:80%;
+			font-family: arial;
+		}
+		.container{
+			margin:20px;
+		}
+		#logo{
+			width:35%;
+			float:left;
+		}
+		#logo h1{
+			font-size:1.7em;
+		}
+		#logo a{
+			color:black;
+			text-decoration: none;
+			text-transform: capitalize;
+		}
+		#logo a:hover{
+			text-decoration: underline;
+		}
+		nav ul{
+			float:right;
+		}
+		nav ul li{
+			display:inline-block;
+			
+		}
+		nav ul li a{
+			background-color:orange;
+			color:white;
+			padding:20px;
+			text-decoration:none;
+			box-shadow: 0 1px 1px #999;
+			transition: all 1s;
+			
+		}
+		
+		nav ul li a:hover{
+			background-color:yellow;
+			padding:25px;
+			
+			
+		}
+		nav ul li{
+			transition: all 1s;
+		}
+		nav ul li:hover{
+			transform: rotate(360deg);
+		}
+		
+		
+		section{
+			clear:both;
+			margin:20px;
+			box-shadow: 0 1px 1px #999;
+			padding:20px;
+			background-color:white;
+		}
+		section h2{
+			font-size: 1.5em;
+			color:orange;
+			margin-bottom:0.5em;
+		}
+		footer p{
+			
+			padding:20px;
+			text-align:right;
+		}
+		
+	</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div id="logo" >
+	<h1><a href="#">My first website</a></h1>
+</div>
+<nav>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+<nav>
+</div>
+</header>
+<section>
+<div id="intro">
+	
+	<h2>Home</h2>
+	<p>This is my first webpage!</p>
+</div>
+</section>
+</div>
+
+<footer>
+<p>Web page made by <a href="#" target="blank">[Your name]</a></p>
+</footer>
+</body>
+</html>
